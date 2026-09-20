@@ -193,22 +193,6 @@ The grid contained **25 valid parameter combinations**. The highest in-sample Sh
 
 In this specific historical test window, the optimized 10/100 configuration did not deteriorate out-of-sample: its test-period Sharpe and CAGR were higher than in-sample and its drawdown was smaller. This result should not be interpreted as proof of future robustness; it is one historical split and should be supplemented with walk-forward and multi-asset validation.
 
-## Plots
-
-### Equity curves
-
-![Equity curves](plots/equity_curves_5bps.png)
-
-### Drawdown
-
-![Drawdown](plots/drawdown_5bps.png)
-
-### In-sample MA Sharpe heatmap
-
-![MA Sharpe heatmap](plots/ma_sharpe_heatmap_is.png)
-
-## Limitations & disclaimer
-
 This is a research backtester, not a production execution simulator. It uses daily bars, binary long/flat positions, and a proportional transaction-cost model. It does not model bid/ask spread dynamics, market impact, partial fills, borrow costs, taxes, exchange fees, or detailed intraday execution.
 
 The strategy universe is intentionally small and the optimization uses one historical training window. The dataset is a single ETF, so results do not establish cross-asset robustness. The project also does not perform walk-forward re-optimization, regime conditioning, portfolio-level risk budgeting, or live/paper execution.
