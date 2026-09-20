@@ -1,0 +1,14 @@
+{
+  "Data source": "user-supplied CSV (SPY_US_Data.csv; latest 10-year window)",
+  "Data start": "2015-09-18",
+  "Data end": "2025-09-18",
+  "Observations": 2515,
+  "Train start": "2015-09-18",
+  "Train end": "2022-09-14",
+  "Test start": "2022-09-15",
+  "Test end": "2025-09-18",
+  "Risk-free rate": 0.0,
+  "Headline cost bps": 5.0,
+  "Best in-sample fast MA": 10,
+  "Best in-sample slow MA": 100
+}
